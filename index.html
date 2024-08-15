@@ -7,7 +7,7 @@
 <script>
 function checkPassword() {
     var password = document.getElementById("password").value;
-    var correctPassword = "i feel so bored now"; // 设置你的密码
+    var correctPassword = "i feel so bored now"; 
     var message = document.getElementById("message");
 
     if(password === correctPassword) {
@@ -35,40 +35,40 @@ function checkPassword() {
   .container {
     position: relative;
     width: 100%;
-    height: 100vh; /* 100% viewport height */
+    height: 100vh; 
   }
   .hidden-button {
     position: absolute;
-    bottom: 0.5px; /* 10px from the bottom */
-    right: 3px; /* 10px from the right */
+    bottom: 0.5px;
+    right: 3px;
     width: 300px;
     height: 117px;
     background-color: #0072e3;
     color: white;
     text-align: center;
-    line-height: 28px; /* centers the text vertically */
+    line-height: 28px; 
     cursor: pointer;
-    transition: background-color 0.3s; /* smooth transition for hover effect */
+    transition: background-color 0.3s; 
   }
   .hidden-button:hover {
-    background-color: #6680aa; /* darker background on hover */
+    background-color: #6680aa;
   }
   .hidden-text {
     position: absolute;
-    bottom: 40px; /* 100px from the bottom */
-    right: 43px; /* 10px from the right */
+    bottom: 40px; 
+    right: 43px;
     width: 200px;
      height: 80px;
     background-color: #9acd32;
     color: white;
     padding: 10px;
-    border-radius: 5px; /* rounded corners */
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    opacity: 0; /* initially hidden */
-    transition: opacity 0.3s; /* smooth transition for fade-in effect */
+    opacity: 0; 
+    transition: opacity 0.3s; 
   }
   .hidden-text.show {
-    opacity: 1; /* visible when .show class is added */
+    opacity: 1; 
   }
 </style>
 <script>
